@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+int num1, num2, res;
+char z;
+printf("입력");
+scanf("%d %c %d", &num1, &z, &num2);
+
+if (z == '+')
+{
+res = num1 + num2;
+} 
+else if (z == '-')
+{
+  res = num1 - num2;
+}
+else if (z == '*')
+{
+  res = num1 * num2;
+}
+else if (z == '/')
+{
+  res = num1 / num2;
+}
+
+printf("%d", res);
+return 0;
+}
