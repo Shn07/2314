@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  int v, seta;
+  double T; 
+  printf("초기 속도, 발사 각도 입력 : ");
+  scanf("%d %d", &v, &seta);
+  T=2*v*sin(seta)/9.8;
+  printf("%.2lf초 후에 도착합니다 ", T);
+
+  return 0;
+}
